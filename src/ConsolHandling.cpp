@@ -330,7 +330,7 @@ int ConsolHandling::Help(ParamStruct &ps)
     (void)ps;
 
     wprintf(L"The syntax of %s [command command]:\n", sName.c_str());
-    wprintf(L" The commands can be begin with \'-\' or \'/\'\n");
+    wprintf(L" The commands can begin with \'-\' or \'/\'\n");
     wprintf(L" The commands are:\n");
 
     for (ParamStruct &sp : vParamStruct)
