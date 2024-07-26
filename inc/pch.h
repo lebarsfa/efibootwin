@@ -14,6 +14,7 @@
 #include <functional>
 #include <map>
 #include <unordered_map>
+#include <memory>
 
 #include <windows.h>
 
